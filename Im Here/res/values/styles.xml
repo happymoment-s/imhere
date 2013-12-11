@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="preferencesTheme">
+        <item name="android:background">@drawable/white</item>
+        <item name="android:textColor">@drawable/black</item>
+        <item name="android:listViewStyle">@style/listViewPrefs</item>    
+    </style>         
+    
+    <style name="listViewPrefs" parent="@android:style/Widget.ListView">        
+        <item name="android:background">@drawable/white</item>        
+        <item name="android:cacheColorHint">@drawable/white</item> 
+    </style>
+</resources>

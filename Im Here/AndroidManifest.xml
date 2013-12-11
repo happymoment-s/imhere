@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="org.androidtown.lbs.location"
+      android:versionCode="1"
+      android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application 
+        android:icon="@drawable/mapsicon" 
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".ImHereActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="parser"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="Preference"
+            	android:theme="@style/listViewPrefs"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="Help"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="Search"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name="Splash"
+                  android:screenOrientation="portrait"></activity>
+
+    </application>
+    <uses-sdk android:minSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+	</uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

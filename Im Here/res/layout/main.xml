@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center|center_vertical"
+    android:background="@drawable/white">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="fill_parent"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageHelp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/helpicon2" />
+
+            <ImageView
+                android:id="@+id/ImageSearch"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/aimicon" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageAddress"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/truliaicon" />
+            
+            <ImageView
+                android:id="@+id/ImagePreference"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/joomlaicon" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

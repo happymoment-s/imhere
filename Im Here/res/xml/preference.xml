@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:background="@drawable/white">
+			<CheckBoxPreference
+                android:key="checkbox_Subway"
+                android:title="지하철역"
+                android:defaultValue="true" />
+			
+			<CheckBoxPreference
+                android:key="checkbox_BusStation"
+                android:title="버스정류장"
+                android:defaultValue="false" />
+			
+			<CheckBoxPreference
+                android:key="checkbox_Disabled"
+                android:title="장애인시설"
+                android:defaultValue="false" />
+			
+			<CheckBoxPreference
+                android:key="checkbox_CommunityCenter"
+                android:title="주민센터(동사무소)"
+                android:defaultValue="false" />
+			
+			<CheckBoxPreference
+                android:key="checkbox_Hospital"
+                android:title="병원"
+                android:defaultValue="false" />
+
+			<CheckBoxPreference
+                android:key="checkbox_Bank"
+                android:title="은행"
+                android:defaultValue="false" />
+			
+			<CheckBoxPreference
+                android:key="checkbox_Department_store"
+                android:title="백화점"
+                android:defaultValue="false" />
+						
+			<CheckBoxPreference
+                android:key="checkbox_Park"
+                android:title="공원"
+                android:defaultValue="false" />
+</PreferenceScreen>
